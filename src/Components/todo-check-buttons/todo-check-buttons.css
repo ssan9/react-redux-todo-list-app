@@ -1,0 +1,38 @@
+.todo-check-buttons {
+	display: inline-block;
+}
+
+.mark {
+	border: none;
+  	vertical-align: middle;
+  	margin: 2px;
+}
+
+.box {
+	background-color: #e2dddd;
+	border: 1px solid #bdb4b4;
+}
+
+.delete-button {
+	background-color: #ff0000ab;
+	color: white;
+	font-size: 9px;
+	padding: 2px;
+}
+
+.completed-button {
+	border-radius: 2px;
+	/*font-size: 7px;*/
+	font-size: 6px;
+	/*padding: 1px 2px;*/
+	padding: 0 1px;
+	font-weight: 600;
+}
+
+.unchecked-button {
+	font-size: 0;
+/*	padding: 6px 5px; */
+	padding: 3.5px 3px;
+	border-radius: 2px;
+}
+

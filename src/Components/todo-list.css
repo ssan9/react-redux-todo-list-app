@@ -1,0 +1,18 @@
+.todo-list {
+	color: white;
+	text-align: center;
+	width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.heading {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+h1 {
+	margin: 5%;
+}

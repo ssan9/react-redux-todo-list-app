@@ -1,0 +1,87 @@
+.task-board {
+	background-color: white;
+	color: black;
+	text-align: left;
+	/*margin: 2% auto;*/
+	/*padding: 1% 11% 0;*/
+	/*width: 200px;*/
+	list-style: none;
+	/*background-color: red;*/
+	/*vertical-align: middle;*/
+}
+
+.trial {
+	padding: 2% 0 0 ;
+}
+
+.todos-list {
+/*	vertical-align: middle; */
+	margin: 1% auto; 
+	/*margin: 1% 0 1% 0;*/
+	/*background-color: green;*/
+}
+
+/*.display-list li.first:first-child {
+	margin: 5% 0 0;
+}
+*/
+/*ul li.first:first-child {
+	margin: 10% 0 0;
+}*/
+
+/*.add-task ul li:first-child {
+	margin: 10% 0 0;
+}*/
+
+/*.todos-list:first-child {
+	padding: 10% 0 0;
+}*/
+
+/*.trial > div:nth-of-type(1) {
+	margin: 10% 0 0;
+}*/
+
+/*.trial > .todos-list {
+	margin: 3% 0 0;
+}
+*/
+/*.trial > .todos-list {
+	margin: 3% 0 0;
+}*/
+
+.mark {
+	border: none;
+  	vertical-align: middle;
+
+}
+
+.delete-button {
+	background-color: #ff0000ab;
+	color: white;
+	font-size: 9px;
+	padding: 2px;
+}
+
+.completed-button {
+	border-radius: 2px;
+	font-size: 7px;
+	padding: 1px 2px;
+	font-weight: 600;
+	background-color: #e2ddd;
+}
+
+.unchecked-button {
+	font-size: 0;
+	background-color: #e2ddd;
+	padding: 6px 5px;
+	border-radius: 2px;
+}
+
+.todos-list {
+	display: inline-block;
+}
+
+.line-break {
+	border-bottom: 1px solid blue;
+	margin: 4% 0 0;
+}
