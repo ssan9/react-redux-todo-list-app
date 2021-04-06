@@ -67,7 +67,6 @@ class AddTask extends React.Component {
 						<input type="text"
 							className="add-input"
 							placeholder="new task"
-							// value={this.props.addedTask}
 							value={this.state.input}
 							onChange={this.handleChange}
 							name="add-input" />

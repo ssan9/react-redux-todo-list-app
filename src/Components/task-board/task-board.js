@@ -6,8 +6,6 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
 function TaskBoard(props) {
-	console.log('props.taskboard.todo', props.but);
-
 	return(
 		<div className="task-board">
 			<div className="trial">

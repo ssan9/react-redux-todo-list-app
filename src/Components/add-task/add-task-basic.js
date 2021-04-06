@@ -14,15 +14,12 @@ class AddTask extends React.Component {
 
 	handleChange(event) {
 		this.props.action.task(event);
-		console.log('this.props.action', this.props.action);
 	}
 
 	handleSubmit(event) {
 		event.preventDefault();
 		event.stopPropagation();
-		console.log('this.props.action', this.props.action);
 		this.props.action.addTask(this.props.task);
-		console.log('handleSubmit', this.props.task);
 	}
 
 	render() {

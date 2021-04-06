@@ -5,23 +5,11 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
 function TodoCheckButtons(props) {
-
-	// const deleteSelectedListItem = () => (
-	// 	props.action.deleteSelectedItem(props.id)
-	// );
-
 	const handleDelete = (event) => {
 		console.log('props.id', props.id, 'props.completed', props.completed);
 		event.preventDefault();
-		// props.action.toggleTodo(props.id); 
 		props.action.deleteSelectedItem(props.id); 
-		// props.completed ? event.target.style.setProperty("text-decoration", "line-through") : 'none'
 	}
-
-	// const deleteStyle = {
-	// 	textDecoration: "line-through",
-	// 	color: red
-	// }
 
 	return(
 		<div className="todo-check-buttons">

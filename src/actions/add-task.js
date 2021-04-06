@@ -22,8 +22,6 @@ export const deleteList = () => {
 	})
 }
 
-// let deleteId = 0
-
 export const DELETE_SELECTED_ITEM = 'DELETE_SELECTED_ITEM';
 export const deleteSelectedItem = (id) => ({
 	type: DELETE_SELECTED_ITEM,
